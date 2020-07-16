@@ -31,7 +31,7 @@ class LiveChartComponent extends Component {
       },
     };
   }
-  componentWillMount() {
+  componentDidMount() {
     this.subscribeData();
   }
 
